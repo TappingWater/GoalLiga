@@ -2,6 +2,9 @@
 Social media site for Spanish soccer fans to interact with one another. 
 This website was built using MVC architecture. Uses: HTML5, CSS, JavaScript, PHP
 
+# URL
+http://ec2-54-211-68-150.compute-1.amazonaws.com/CS3744-N/GoalLiga//Home
+
 # Summary
 This web application is designed as a means of providing a social platform where
 fans of the Spanish Soccer League, La Liga can interact with one another. It is
@@ -39,5 +42,3 @@ Use the provided SQL file in the zip file to build the needed database.</br>
 Any phpMyAdmin credentials would need to be changed in the config.php file.</br>
 Any url changes are also done through the config.php file.</br>
 
-# URL
-http://ec2-54-211-68-150.compute-1.amazonaws.com/CS3744-N/GoalLiga//Home
