@@ -1,0 +1,636 @@
+/*Global Styles */
+body{
+  font-family: arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* D3 Styles */
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+#panel {
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  border: 20px solid black;
+  height: 30px;
+  font-size: 20px;
+}
+
+#createPanel {
+  margin: auto;
+  text-align: center;
+  height: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+#createPanel input{
+    width: 40%;
+    font-size: 20px;
+}
+
+#pButtons {
+  margin: auto;
+  text-align: center;
+}
+
+#dltCnfrm {
+  margin: auto;
+  text-align: center;
+}
+
+.dCnfrm {
+  background-color: black;
+  color: white;
+  border: 2px solid #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 20%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pButton {
+    background-color: black;
+    color: white;
+    border: 2px solid #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+#editTitle {
+  width: 70%;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.alert {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: bold;
+}
+
+
+/* Clears any float */
+.clearFix {
+  clear: both;
+}
+
+.diagram {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+/* Container of the HTML page */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.login-button{
+  float: right;
+  width: 10%;
+  height: 100%;
+  margin-top: 15px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  background-color: black;
+}
+
+.signUp-button {
+  float: right;
+  width: 10%;
+  height: 100%;
+  margin-top: 15px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  background-color: black;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.highlight {
+  color: black;
+}
+
+.textBox {
+  display: inline-block;
+  width: 70%;
+  float: right;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  width: 20%;
+  margin: 20 20 20 20;
+}
+
+.profattr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profattr strong {
+  width: 30%;
+}
+
+.profattr i {
+  width: 80%;
+  float: right;
+
+}
+
+.My-Feed h4 {
+  width: auto;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#clubSort {
+    margin: auto;
+    height:30px;
+    text-align: center;
+}
+
+#createAccountBtn {
+  display:inline-block;
+  color: white;
+  background-color: black;
+  width: 20%;
+  height: 50px;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*Header styles */
+header{
+  background: grey;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  padding-bottom: 20px;
+  border-bottom: black 3px solid;
+  text-decoration: none;
+}
+
+header a{
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+header li{
+  float: right;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding img{
+  width: 5%;
+  height: 5%;
+  float: left;
+}
+
+header #branding h1{
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+header #Login{
+  float: right;
+  margin-top: 25px;
+}
+
+/* Navigation page styles */
+nav {
+  color: white;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+nav a{
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+nav li{
+  float: left;
+  font-size: 1.5em;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+/* Container object in between the header and footer */
+.container2 {
+  margin: auto;
+  width: 90%;
+  padding-top: 10px;
+}
+
+.newPost{
+  background: black;
+  font-size: 20px;
+  width: 50%;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.newPost a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* News section style */
+#news-section h3 {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+#news-section{
+  padding-left: 10px;
+  width: 75%;
+  float:left;
+  padding-bottom: 10px;
+}
+
+
+#news-section .mainArticle img{
+  width:100%;
+  height: 100%;
+}
+
+
+#news-section .mainArticle .articleImg{
+  width:50%;
+  float: left;
+}
+
+/*Match section of the HTML page */
+#match-section h3 {
+  text-align: center;
+}
+
+#match-section .matchTable {
+  margin: auto;
+  text-align: center;
+}
+
+#match-section{
+  width: 20%;
+  float:right;
+}
+
+.matchTable th, td {
+  border: 1px black dotted;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*Description section of the articles */
+.description {
+    padding-left: 20px;
+    width:40%;
+    float: left;
+}
+
+.article {
+  position: relative;
+  padding-top: 20px;
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+
+.article img {
+  position: relative;
+  width: 95%;
+  height: 300px;
+}
+
+/* Login styles applied to the Login bar */
+.Login {
+  background-color: black;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  width: 5%;
+  height: 3%;
+  margin-top: 10px;
+}
+
+/* Footer of the HTML page */
+footer {
+  margin: auto;
+  align-items: center;
+  overflow: hidden;
+  background-color: grey;
+  border-top: black 30px solid;
+}
+
+footer img{
+  width: 5%;
+  height: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer .container3 {
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+/* Styles applied to the search bar in the news page */
+.search {
+  padding-bottom: 20px;
+}
+
+.search input[type=text]{
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 15%;
+  height: 5%
+  background: #f1f1f1;
+  padding-right: 20px;
+}
+
+.search button img {
+  width: 15%;
+
+}
+
+.search button {
+  text-align: center;
+  float: right;
+  width: 6%;
+  height: 5%
+  padding-left: 10px;
+  background: white;
+  border-radius: 1px solid black;
+  border-left: none;
+}
+
+/*Styles the dropDown menu */
+.dropDown {
+  margin:auto;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Styles the articles of the news page */
+.article2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.article2 img {
+  width: 70%;
+}
+
+.article2 .articleImage {
+  width: 30%;
+  float: left;
+}
+
+.article2 .articleDescription{
+  width: 70%;
+  float: left;
+}
+
+/*Styles the table in the Table.html file */
+.mainTable {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+.mainTable th, td {
+  text-align: center;
+  font-size: 15px;
+}
+
+.mainTable th {
+  font-family: impact;
+}
+
+/*Styles applied to the comments section of the page */
+.Comments {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.Comments .commentSubmit {
+  width: 100%;
+}
+
+.commentDropDown {
+  float: right;
+}
+
+/* Container4 div of the HTMl */
+.container4 {
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+
+
+.container4 h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.container4 img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.postStory .submitInfo{
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.associatedClub span {
+  width: 40%;
+}
+
+
+.associatedClub .clublist{
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.submitBtn {
+  background-color: black;
+  color: white;
+  width: 20%;
+  font-size: 20px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.submitBtn:disabled {
+  background-color: grey;
+  color: white;
+  width: 20%;
+  font-size: 20px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+/* Applied media queries for <768 pixels */
+@media (max-width:768px) {
+    header img{
+      display: none;
+    }
+
+    header #Login {
+      width: 100%;
+      clear: both;
+      margin: auto;
+      text-align: center;
+      float: left;
+    }
+
+    .login-button {
+      display: block;
+      float: left;
+      text-align: center;
+      width: 100%;
+      font-size: 20px;
+    }
+
+    footer img {
+      display: none;
+    }
+
+    #news-section {
+      width: 100%;
+      clear: both;
+    }
+
+    #news-section *{
+      clear: both;
+      width: 100%;
+      align-items: center;
+    }
+
+    #news-section img{
+      width: 50%;
+      height: 30%;
+      margin: auto;
+    }
+
+    .articleImg {
+      clear: both;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      width: 50%;
+      height: 30%;
+    }
+
+    .container2 {
+      width: 90%;
+      margin: auto;
+    }
+
+    #match-section {
+      clear: both;
+      width: 100%;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+
+    #match-section h3 {
+      background-color: black;
+      color: white;
+    }
+
+    .article2 {
+      width: 100%;
+    }
+
+    .dropDown *{
+      display: block;
+    }
+
+    .search button, input{
+      clear: both;
+      width: 20%;
+    }
+
+
+    .article2 .articleImage, .articleDescription{
+      clear: both;
+      position: relative;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      border: none;
+      padding: none;
+    }
+
+}

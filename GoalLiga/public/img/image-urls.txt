@@ -1,0 +1,26 @@
+soccer-icon:
+https://cdn.iconscout.com/icon/premium/png-256-thumb/soccer-97-682900.png
+facebook-icon:
+https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697057-facebook-512.png
+youtube-icon:
+https://cdn3.iconfinder.com/data/icons/capsocial-round/500/youtube-512.png
+twitter-icon:
+https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697029-twitter-512.png
+instagram-icon:
+https://cdn0.iconfinder.com/data/icons/social-media-circle-6/1024/instagram-512.png
+news-article1.jpg
+https://therealchamps.com/2019/10/05/eden-hazard-scores-brilliant-chipped-first-goal-real-madrid-video/
+https://images.daznservices.com/di/library/GOAL/80/ee/eden-hazard-sergio-ramos-real-madrid_12rqze76t8rph144xd42mfsybg.jpg?t=-1606818675&quality=60&w=1600
+news-article2.jpg
+https://images.daznservices.com/di/library/GOAL/b8/a8/donny-van-de-beek-ajax_swob720tsahlzvw2thzzf2ji.jpg?t=1443790044&quality=60&w=1600
+news-article3.jpg
+https://images.daznservices.com/di/library/GOAL/67/2c/anil-murthy-valencia_1p3y6tmebkqy21ww5oti0u82e6.jpg?t=-1577036611&quality=60&w=1600
+news-article4:
+https://www.skysports.com/football/news/11827/11819864/euro-papers-diego-costa-could-leave-atletico-madrid
+https://e1.365dm.com/19/07/768x432/skysports-diego-costa-costa_4729408.jpg?20190727072420
+Search-icon:
+https://cdn.imgbin.com/6/15/5/imgbin-computer-icons-search-box-button-search-button-hheGJHzRvNAj9stPnWY1BnhrV.jpg
+news-article5:
+Barcelona president Josep Maria Bartomeu said this month he was hopeful of convincing Puyol to return to the Nou Camp to fill the role left vacant by Pep Segura, who departed by mutual consent in July.
+
+https://www.skysports.com/football/news/11827/11819501/carles-puyol-rejects-barcelona-sporting-director-role

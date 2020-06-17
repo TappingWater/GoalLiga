@@ -1,0 +1,32 @@
+Options -Indexes
+
+RewriteEngine on
+
+# News controller
+RewriteRule ^news/sortClub/([0-9a-zA-Z]{2,40})$ app/controller/NewsController.php?route=sortClub&club=$1 [NC]
+RewriteRule ^news$ app/controller/NewsController.php?route=list [NC]
+RewriteRule ^postArticle$ app/controller/NewsController.php?route=add [NC]
+RewriteRule ^news/submit/process$ app/controller/NewsController.php?route=addProcess [NC]
+RewriteRule ^news/(\d+)$ app/controller/NewsController.php?route=detail&storyID=$1 [NC]
+RewriteRule ^news/delete/(\d+)$ app/controller/NewsController.php?route=delete&storyID=$1 [NC]
+RewriteRule ^myArticles$ app/controller/NewsController.php?route=manageArticles [NC]
+RewriteRule ^news/edit/(\d+)$ app/controller/NewsController.php?route=edit&storyID=$1 [NC]
+RewriteRule ^updateProcess$ app/controller/NewsController.php?route=editProcess [NC]
+RewriteRule ^news/sortClub/([0-9a-zA-Z]{2,40})$ app/controller/NewsController.php?route=sortClub&club=$1 [NC]
+
+
+# Site controller
+RewriteRule ^viz$ app/controller/SiteController.php?route=viz [NC]
+RewriteRule ^visual$ app/controller/SiteController.php?route=visual [NC]
+RewriteRule ^$ app/controller/SiteController.php?route=home [NC]
+RewriteRule ^home$ app/controller/SiteController.php?route=home [NC]
+RewriteRule ^table$ app/controller/SiteController.php?route=table [NC]
+RewriteRule ^login$ app/controller/SiteController.php?route=login [NC]
+RewriteRule ^login/process$ app/controller/SiteController.php?route=loginProcess [NC]
+RewriteRule ^pwdChange$ app/controller/SiteController.php?route=changePwd [NC]
+RewriteRule ^logout$ app/controller/SiteController.php?route=logout [NC]
+RewriteRule ^profile/([0-9a-zA-Z]{2,40})$ app/controller/SiteController.php?route=profile&un=$1 [NC]
+RewriteRule ^deleteAccnt/(\d+)$ app/controller/SiteController.php?route=deleteAccnt&id=$1 [NC]
+RewriteRule ^signUp$ app/controller/SiteController.php?route=sign [NC]
+RewriteRule ^signUp/process$ app/controller/SiteController.php?route=signUpProcess [NC]
+RewriteRule ^makeAdmin$ app/controller/SiteController.php?route=makeAdmin [NC]
