@@ -33,7 +33,6 @@ are used to represent articles.
 This 'article tree' can be used to implement all CRUD operations. </br>
 
 # Installation instructions
-
 Unzip the file and place the GoalLiga folder into the htdocs folder of xampp.</br>
 Use the provided SQL file in the zip file to build the needed database.</br>
 Any phpMyAdmin credentials would need to be changed in the config.php file.</br>
