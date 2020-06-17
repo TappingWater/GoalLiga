@@ -31,9 +31,13 @@ Uses a dynamic graphical component to represent the relationship between article
 This tree is built based on an interactive tree diagram where nodes represents users and the child nodes
 are used to represent articles.
 This 'article tree' can be used to implement all CRUD operations. </br>
+Features a notification feed which is updated based on the actions of the userbase. </br>
 
 # Installation instructions
 Unzip the file and place the GoalLiga folder into the htdocs folder of xampp.</br>
 Use the provided SQL file in the zip file to build the needed database.</br>
 Any phpMyAdmin credentials would need to be changed in the config.php file.</br>
 Any url changes are also done through the config.php file.</br>
+
+# URL
+http://ec2-54-211-68-150.compute-1.amazonaws.com/CS3744-N/GoalLiga//Home
